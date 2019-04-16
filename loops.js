@@ -34,5 +34,7 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(integer) {
-
+  do {
+    "I run once regardless."
+  }
 }
