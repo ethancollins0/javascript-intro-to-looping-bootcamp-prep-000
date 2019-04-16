@@ -44,7 +44,6 @@ function doWhileLoop(num) {
   do {
     console.log("doo-bee-doo-bee-doo")
   } while (incrementVariable() < num);
-  return
 }
 
 do {
