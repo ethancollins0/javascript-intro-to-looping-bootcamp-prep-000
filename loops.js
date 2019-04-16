@@ -34,14 +34,12 @@ function whileLoop(number) {
 }
 
 var i = 0;
-/*
+ 
 function incrementVariable() {
   i = i + 1;
   return i;
 }
-*/
-function doWhileLoop(integer) {
-  do {
-    console.log("I run once regardless.");
-  } while (incrementVariable() < integer);
-}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
