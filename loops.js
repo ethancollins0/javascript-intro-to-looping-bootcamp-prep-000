@@ -16,6 +16,7 @@ function forLoop(a) {
         a.push(`I am ${i} strange loops.`);
     }
   }
+  return a
 }
 
 let countdown = 100;
