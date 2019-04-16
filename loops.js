@@ -40,7 +40,6 @@ function incrementVariable() {
   return i;
 }
 
-var i = 1;
 function doWhileLoop(num) {
   do {
     console.log("I run once regardless.")
