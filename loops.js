@@ -43,5 +43,5 @@ function incrementVariable() {
 function doWhileLoop(integer) {
   do {
     console.log("doo-bee-doo-bee-doo");
-  } while (incrementVariable() < 5);
+  } while (incrementVariable() < integer);
 }
