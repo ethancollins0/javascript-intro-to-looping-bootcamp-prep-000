@@ -8,12 +8,12 @@ for (var i = 1; i < 100; i++) {
 }
 
 //the above prints Hello World the n time
-function forLoop(array) {
+function forLoop(a) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
-      array.push("I am 1 strange loop.");
+      a.push("I am 1 strange loop.");
     } else {
-        array.push(`I am ${i} strange loops.`);
+        a.push(`I am ${i} strange loops.`);
     }
   }
 }
