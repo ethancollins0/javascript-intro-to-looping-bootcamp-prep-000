@@ -40,8 +40,8 @@ function incrementVariable() {
   return i;
 }
 
-function doWhileLoop(integer) {
+function doWhileLoop(num) {
   do {
     console.log("doo-bee-doo-bee-doo");
-  } while (incrementVariable() < integer);
+  } while (incrementVariable() < num);
 }
