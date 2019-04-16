@@ -8,15 +8,15 @@ for (var i = 1; i < 100; i++) {
 }
 
 //the above prints Hello World the n time
-function forLoop(a) {
+function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
-      a.push("I am 1 strange loop.");
+      array.push("I am 1 strange loop.");
     } else {
-        a.push(`I am ${i} strange loops.`);
+        array.push(`I am ${i} strange loops.`);
     }
   }
-  return a
+  return array
 }
 
 let countdown = 100;
